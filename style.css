@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.hero-contain h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.hero-contain h4 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.wrraper {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.off-categories {
+    text-align: center;
+}
+
+.off>h1,
+h5 {
+    color: #F00;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.off>h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.off-categories>h2 {
+    font-size: 48px;
+    font-weight: 500;
+
+
+}
+
+
+.midnight_party {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../Vector\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 60px;
+    margin-top: -10%;
+    position: relative;
+}
+
+.party {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+}
+
+.party>h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.party>h5 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.blank {
+    padding-top: 300px;
+}
+
+.joinButton {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.new span {
+    color: #F00
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    gap: 20px;
+    background-image: linear-gradient(180deg, rgba(255, 1, 1, 0.167) 50%, rgba(208, 1, 1, 0) 100%);
+
+}
+
+.anotherButton {
+    padding: 10px 20px;
+    border: none;
+    color: aliceblue;
+    background-color: #F00;
+    ;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.happy_offer {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.happy_offer span {
+    color: #F00;
+}
+
+.best_offer {
+    padding-right: 120px;
+    gap: 2000px;
+}
+
+.happy_2024 {
+    padding-left: 110px;
+}
+
+.round {
+    border-radius: 50%;
+    padding: 25px;
+    border: 5px solid red;
+}
+
+
+/*holiday sale 50% */
+.functional {
+    margin: 100px;
+}
+.anotherone{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.functional span{
+    color: #F00;
+}
+.group {
+    width: 1320px;
+    height: 650px;
+    display: flex;
+    background: url("../Rectangle\ 2.png"), url("../Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+    
+
+}
+
+.group img.small-image {
+    width: auto;
+    height: 50%;
+}
+
+
+
+.awesome {
+    padding: 60px;
+    margin: 20px;
+}
+
+.awesome p {
+    margin-bottom: 5px;
+}
+
+.awesome span {
+    color: #F00;
+}
+
+.cosmetics {
+    text-align: center;
+
+}
+
+.cosmetics img {
+    margin: 15px;
+
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    background-image: linear-gradient(180deg, rgba(255, 1, 1, 0.167) 50%, rgba(208, 1, 1, 0) 100%);
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+
+.email img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.email h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hlo input {
+    padding: 10px 20px;
+    border: none;
+    color: aliceblue;
+    background-color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.hlo span {
+    color: #F00;
+    margin-left: -10px;
+    padding: 10px 20px;
+    border: none;
+    color: aliceblue;
+    background-color: #F00;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.footer {
+
+    height: 250px;
+    background-color: #070211;
+    color: white;
+    padding: 40px;
+    line-height: 40px;
+    font-weight: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
